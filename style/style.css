@@ -16,11 +16,12 @@
     color: #926239;
 }
 .text-img > button{
+    color: #926239;
+    background-color: inherit;
     font-size: 20px;
     margin-top: 25px;
-    border-radius: 5px;
-    border: 2px solid #926239;
-    color: #926239;
+    border-radius: 15px;
+    border: 2px solid;
     padding: 15px;
 }
 .text-img > h1{
@@ -28,4 +29,18 @@
 }
 .text-align{
     text-align: center;
+}
+.text-content{
+    font-size: 17px;
+    line-height: 1.5em;
+    height: 150px;
+    padding: 15px 10px;
+}
+.bg-color-gold{
+    background-color: #926239;
+    color: white;
+}
+.bg-color-white{
+    background-color: #f4f4f4;
+    color: #926239;
 }
