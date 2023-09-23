@@ -1,7 +1,5 @@
 *{
     margin: 0;
-    box-sizing: border-box;
-    
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .bg-img{
@@ -34,10 +32,9 @@
     text-align: center;
 }
 .text-content{
-    display: block;
     font-size: 17px;
     line-height: 1.5em;
-    height: 150px;
+    height: 100%;
     padding: 15px 10px;
 }
 .bg-color-gold{
@@ -45,10 +42,14 @@
     color: white;
 }
 .bg-color-white{
-    background-color: #f4f4f4;
+    background-color: white;
     color: #926239;
 }
+.conteiner{
+    display: flex;
+}
 .conteiner-box{
-    display: inline-block;
-    max-width: 33%;
+    max-height: 100%;
+    max-width: 33.3%;
+    box-sizing: border-box;
 }
